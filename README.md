@@ -1,6 +1,6 @@
 # ATTENTION
 
-This project dates back to 2/26/2017 when I was working both as Rater and Auditor at [Appen Butlerhill](https://appen.com/),  it is not complete within its scope of functionalities and will not be maintained anymore, some parts have been deleted due to client-independent conrtactor confidentiality agreement.
+This project dates back to 2/26/2017 when I was working both as Rater and Auditor at [Appen Butlerhill](https://appen.com/),  it is not complete within its scope of functionalities and will not be maintained anymore, some parts have been deleted due to client-independent contractor confidentiality agreement.
 
 # Greetings fellow visitor!
 
