@@ -25,7 +25,7 @@ Eduardo.</div>**
 
 Basic functionality:
 
-- Go inside [SRT](https://our.intern.facebook.com/intern/search_team)
+- Go inside the rating tool.
 - Set up your project, save and enqueue and start a rating session.
 - For each result it'll:
    - Check for errors
@@ -174,7 +174,7 @@ By either doing this with the cursor:
 
 Or by clicking in the Chunk and then pressing the key **[ESC]** (note that the vertical line that once was green must now be blue) followed by pressing the key for letter **[M]**.
 driver = webdriver.Chrome()
-driver.get('https://our.intern.facebook.com/intern/search_team')
+#driver.get("...") - hidden due to client-independ contractor confidentially agreement.
 save_cookies()
 ## <a name="start_a_new_session">Start a New Session</a>
 
@@ -318,7 +318,7 @@ def click_button(string_identifier):
 
 ```python
 def goto_main_srt_screen():
-    srt_links = ["https://our.intern.facebook.com/intern/search_team","https://intern.facebook.com/intern/search_team", "https://our.cstools.facebook.com/intern/search_team"]
+    srt_links = [""] # deleted due to client-independent contractor confidentiality agremeent.
     while status()['screen'] != 'srt_main':
         time_waited = 0
         maxtime = 10
@@ -328,12 +328,12 @@ def goto_main_srt_screen():
             print("Not contained in a predefined list of SRT mirrors")
             print("Please make sure to update the mirror to srt_links variable if {} is a SRT Mirror".format(browser.current_url))
             print("Redirecting to Main SRT Screen:")
-            browser.get("https://our.intern.facebook.com/intern/search_team")
+            browser.get("") # deleted due to client-independent contractor confidentiality agreement.
             print("Done!")
             sleep(1)
             time_waited += 1
             if time_waited > maxtime:
-                browser.get("https://our.intern.facebook.com/intern/search_team")
+                browser.get("") # deleted due to client-independent contractor confidentiality agreement.
                 print("Trying again")
         else:
             return("We're already on the Main SRT Screen")
